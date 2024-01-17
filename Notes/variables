@@ -1,0 +1,29 @@
+ Variables :-
+------------
+-->Variable is a container which is used to store single value.
+-->Variables are temporary memory.
+
+-->syntax :- datatype variable_name;
+			 variable_name = value;
+-->Variables can't be re-declared, but variables can be re-initialised.
+
+ Types of Variables :-
+--------------------
+1)Local Variables :- 
+-------------------
+-->The variables which are created inside the method, those variables are known as local variables.
+-->Local variables must be initialised before using.
+
+2)Static Variables(Class Variables) :- 
+------------------------------------
+-->The variables which are created inside the class and outside the method by using static keyword.
+-->For static variables object creation is not compulsory.
+-->For static variables only one copy of memory will be created.
+-->For static variables initialisation is not compulsory.
+
+3)Non-static Variables(Instance Variables) :- 
+-------------------------------------------
+-->The variables which are created inside the class and outside the method without using static keyword.
+-->For Non-static variables object creation is compulsory.
+-->For Non-static variables memory will be created for each and every object creation.
+-->Initialisation is not compulsory.
